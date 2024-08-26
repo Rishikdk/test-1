@@ -1,0 +1,9 @@
+.env
+dataset
+dataset-2
+dataset-3
+detected_faces
+runs
+test-vedio
+best.pt
+yolov8m.pt
