@@ -3,7 +3,7 @@ import cv2
 
 
 # load yolov8 model
-model = YOLO('D:/Project-6th/test-1/runs/detect/train8/weights/best.pt')
+model = YOLO('best.pt')
 
 # load video
 video_path = 'IMG_1221.MP4'

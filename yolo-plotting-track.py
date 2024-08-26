@@ -43,7 +43,7 @@ def run_tracker_in_thread(filename, model, file_index):
 
 
 # Load the models
-model1 = YOLO("D:/Project-6th/test-1/runs/detect/train8/weights/best.pt")
+model1 = YOLO("best.pt")
 
 # Define the video files for the trackers
 video_file1 = "D:/Project-6th/test-1/IMG_1221.MP4"  # Path to video file, 0 for webcam

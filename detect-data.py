@@ -19,7 +19,7 @@ def compute_hash(image):
     pil_image = Image.fromarray(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
     return imagehash.phash(pil_image)
 
-model = YOLO('D:/Project-6th/test-1/runs/detect/train8/weights/best.pt')
+model = YOLO('best.pt')
 
 cap = cv2.VideoCapture(0)  
 
