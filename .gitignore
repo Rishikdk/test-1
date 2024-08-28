@@ -6,4 +6,5 @@ detected_faces
 runs
 test-vedio
 best.pt
-yolov8m.pt
+filtered_faces
+yolo
